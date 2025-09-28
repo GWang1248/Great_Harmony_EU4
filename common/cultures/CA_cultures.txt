@@ -1,0 +1,17 @@
+japanese_g = { #日本文化
+	togoku = {} #东国
+	japanese = {} #西国
+	kyushuan = {} #九州
+	naisen = {} #内鲜
+	hokuteki = {} #北狄
+	karafuto = {} #桦太
+	rikujo = {} #陆上
+	chugen = {} #中原
+	nanto = {} #南都
+	nankai = {} #南海
+	koko = {} #江湖
+	tennan = {} #天南
+	sakuho = {} #朔方
+	saito = {} #西唐
+	nanyo = {} #南洋
+}
