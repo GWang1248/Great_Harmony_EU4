@@ -1,0 +1,76 @@
+country_decisions = {
+	CA_to_japanese_begin = { #日本同化决议
+		potential = {
+			culture_group = japanese_g
+			capital_scope = {
+				region = japan_region
+			}
+			NOT = { has_country_flag = CA_japanese_begin_flag }
+		}
+		major = yes
+		provinces_to_highlight = {
+			region = japan_region
+			NOT = {
+				AND = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+			}
+		}
+		allow = {
+			japan_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			OR = {
+				is_great_power = yes
+				government_rank = 3
+			}
+		}
+		effect = {
+			custom_tooltip = CA_japanese_begin_tooltip
+			set_country_flag = CA_japanese_begin_flag
+		}
+	}
+
+	CA_to_japanese_china = { #同化中原
+		potential = {
+			has_country_flag = CA_japanese_begin_flag
+			NOT = { has_country_flag = CA_to_japanese_china_flag }
+		}
+		allow = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				superregion = china_superregion
+				value = 20
+			}
+		}
+		major = yes
+		effect = {
+			set_country_flag = CA_to_japanese_china_flag
+			country_event = {
+				id = CA_to_japanese.1
+			}
+		}
+	}
+
+	CA_to_japanese_fareast = { #同化满洲
+		potential = {
+			has_country_flag = CA_japanese_begin_flag
+			NOT = { has_country_flag = CA_to_japanese_fareast_flag }
+		}
+		allow = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				superregion = far_east_superregion
+				value = 20
+			}
+		}
+		major = yes
+		effect = {
+			set_country_flag = CA_to_japanese_fareast_flag
+			country_event = {
+				id = CA_to_japanese.2
+			}
+		}
+	}
+}

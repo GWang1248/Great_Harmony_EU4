@@ -1,0 +1,67 @@
+namespace = CA_to_japanese
+
+country_event = {
+	id = CA_to_japanese.1 #中国区
+	title = CA_to_japanese.1.t
+	desc = CA_to_japanese.1.d
+	mean_time_to_happen = {
+		days = 1
+	}
+	hidden = yes
+	trigger = {
+		has_country_flag = CA_to_japanese_china_flag
+	}
+	option = {
+		name = CA_to_japanese.1.a
+		random_list = {
+			15 = {
+				assimilate_huabei_jpn = yes
+			}
+			15 = {
+				assimilate_henan_jpn = yes
+			}
+			14 = {
+				assimilate_jiangnan_jpn = yes
+			}
+			14 = {
+				assimilate_huguang_jpn = yes
+			}
+			14 = {
+				assimilate_lingnan_jpn = yes
+			}
+			14 = {
+				assimilate_xinan_jpn = yes
+			}
+			14 = {
+				assimilate_longxi_jpn = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = CA_to_japanese.2 #远东区
+	title = CA_to_japanese.2.t
+	desc = CA_to_japanese.2.d
+	mean_time_to_happen = {
+		days = 1
+	}
+	hidden = yes
+	trigger = {
+		has_country_flag = CA_to_japanese_fareast_flag
+	}
+	option = {
+		name = CA_to_japanese.2.a
+		random_list = {
+			34 = {
+				assimilate_korea_jpn = yes
+			}
+			33 = {
+				assimilate_manchu_jpn = yes
+			}
+			33 = {
+				assimilate_east_siberia_jpn = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,132 @@
+#中国
+assimilate_huabei_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = hebei_area
+				area = south_hebei_area
+				area = shanxi_area
+				area = north_henan_area
+			}
+		}
+		change_culture = rikujo
+	}
+}
+assimilate_henan_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = shandong_area
+				area = jiangsu_area
+				area = anhui_area
+				area = henan_area
+			}
+		}
+		change_culture = chugen
+	}
+}
+assimilate_jiangnan_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = south_jiangsu_area
+				area = zhejiang_area
+				area = fujian_area
+				area = jiangxi_area
+				area = south_anhui_area
+				area = taiwan_area
+			}
+		}
+		change_culture = nanto
+	}
+}
+assimilate_huguang_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = huguang_area
+				area = hunan_area
+				area = sichuan_area
+				area = chuanbei_area
+			}
+		}
+		change_culture = koko
+	}
+}
+assimilate_lingnan_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = west_guangdong_area
+				area = guangdong_area
+				area = guangxi_area
+			}
+		}
+		change_culture = nankai
+	}
+}
+assimilate_xinan_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = yun_gui_area
+				area = chuannan_area
+				area = yun_gui_borderland_area
+			}
+		}
+		change_culture = takamaga
+	}
+}
+assimilate_longxi_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = shaanxi_area
+				area = gansu_area
+				area = west_gansu_area
+			}
+		}
+		change_culture = sakuho
+	}
+}
+#远东
+assimilate_korea_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				region = korea_region
+			}
+		}
+		change_culture = naisen
+	}
+}
+assimilate_manchu_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				region = manchuria_region
+			}
+		}
+		change_culture = karafuto
+	}
+}
+assimilate_east_siberia_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				region = east_siberia_region
+			}
+		}
+		change_culture = hokuteki
+	}
+}

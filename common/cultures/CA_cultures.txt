@@ -10,8 +10,15 @@ japanese_g = { #日本文化
 	nanto = {} #南都
 	nankai = {} #南海
 	koko = {} #江湖
-	tennan = {} #天南
+	takamaga = {} #高天
 	sakuho = {} #朔方
 	saito = {} #西唐
+	seiban = {} #西蕃
+	makuhata = {} #漠旗
+	kodo = {} #香道
+	funan = {} #扶南
+	tennan = {} #天南
+	tomori = {} #塔守
+	kaido = {} #海门
 	nanyo = {} #南洋
 }
