@@ -54,7 +54,7 @@ country_decisions = {
 		}
 	}
 
-	CA_to_japanese_fareast = { #同化满洲
+	CA_to_japanese_fareast = { #同化远东
 		potential = {
 			has_country_flag = CA_japanese_begin_flag
 			NOT = { has_country_flag = CA_to_japanese_fareast_flag }
@@ -70,6 +70,46 @@ country_decisions = {
 			set_country_flag = CA_to_japanese_fareast_flag
 			country_event = {
 				id = CA_to_japanese.2
+			}
+		}
+	}
+
+	CA_to_japanese_indochina = { #同化中南半岛
+		potential = {
+			has_country_flag = CA_japanese_begin_flag
+			NOT = { has_country_flag = CA_to_japanese_indochina_flag }
+		}
+		allow = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				superregion = east_indies_superregion
+				value = 20
+			}
+		}
+		major = yes
+		effect = {
+			set_country_flag = CA_to_japanese_indochina_flag
+			country_event = {
+				id = CA_to_japanese.3
+			}
+		}
+	}
+
+	CA_to_japanese_indonesia = { #同化东印度
+		potential = {
+			has_country_flag = CA_japanese_begin_flag
+			NOT = { has_country_flag = CA_to_japanese_indonesia_flag }
+		}
+		allow = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				superregion = east_indies_superregion
+				value = 20
+			}
+		}
+		major = yes
+		effect = {
+			set_country_flag = CA_to_japanese_indonesia_flag
+			country_event = {
+				id = CA_to_japanese.4
 			}
 		}
 	}

@@ -96,6 +96,41 @@ assimilate_longxi_jpn = {
 		change_culture = sakuho
 	}
 }
+assimilate_xizang_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				region = tibet_region
+			}
+		}
+		change_culture = seiban
+	}
+}
+assimilate_xinjiang_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = shanshan_area
+				area = kashgaria_area
+				area = tarim_basin_area
+			}
+		}
+		change_culture = saito
+	}
+}
+assimilate_menggu_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				region = mongolia_region
+			}
+		}
+		change_culture = makuhata
+	}
+}
 #远东
 assimilate_korea_jpn = {
 	random_owned_province = {
@@ -128,5 +163,107 @@ assimilate_east_siberia_jpn = {
 			}
 		}
 		change_culture = hokuteki
+	}
+}
+#东南亚
+assimilate_vietnam_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = vietnam_area
+				area = vientiane_area
+				area = north_laos_area
+				area = champasak_area
+				area = red_river_delta_area
+			}
+		}
+		change_culture = kodo
+	}
+}
+assimilate_cambodia_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = champa_area
+				area = tay_nguyen_area
+				area = mekong_area
+				area = cambodia_area
+				area = angkor_area
+			}
+		}
+		change_culture = funan
+	}
+}
+assimilate_thai_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = northern_thai_area
+				area = sukhothai_area
+				area = khorat_area
+				area = central_thai_area
+				area = north_tenasserim_area
+			}
+		}
+		change_culture = tennan
+	}
+}
+assimilate_burma_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				region = burma_region
+			}
+		}
+		change_culture = tomori
+	}
+}
+assimilate_malay_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = tenasserim_area
+				area = north_malaya_area
+				area = malaya_area
+				area = malacca_area
+				area = johor_area
+			}
+		}
+		change_culture = kaido
+	}
+}
+#东印度
+assimilate_indonesia_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				region = indonesia_region
+				area = north_sumatra_area
+				area = central_sumatra_area
+				area = south_sumatra_area
+				area = batak_area
+				area = minangkabau_area
+				area = indian_ocean_islands_area
+				area = jambi_area
+			}
+		}
+		change_culture = nanyo
+	}
+}
+assimilate_moluccas_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				region = moluccas_region
+			}
+		}
+		change_culture = shizue
 	}
 }

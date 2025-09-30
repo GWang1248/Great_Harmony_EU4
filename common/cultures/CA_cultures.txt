@@ -20,5 +20,6 @@ japanese_g = { #日本文化
 	tennan = {} #天南
 	tomori = {} #塔守
 	kaido = {} #海门
+	shizue = {} #静江
 	nanyo = {} #南洋
 }

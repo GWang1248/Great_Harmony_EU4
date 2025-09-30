@@ -14,26 +14,35 @@ country_event = {
 	option = {
 		name = CA_to_japanese.1.a
 		random_list = {
-			15 = {
+			10 = {
 				assimilate_huabei_jpn = yes
 			}
-			15 = {
+			10 = {
 				assimilate_henan_jpn = yes
 			}
-			14 = {
+			10 = {
 				assimilate_jiangnan_jpn = yes
 			}
-			14 = {
+			10 = {
 				assimilate_huguang_jpn = yes
 			}
-			14 = {
+			10 = {
 				assimilate_lingnan_jpn = yes
 			}
-			14 = {
+			10 = {
 				assimilate_xinan_jpn = yes
 			}
-			14 = {
+			10 = {
 				assimilate_longxi_jpn = yes
+			}
+			10 = {
+				assimilate_xizang_jpn = yes
+			}
+			10 = {
+				assimilate_xinjiang_jpn = yes
+			}
+			10 = {
+				assimilate_menggu_jpn = yes
 			}
 		}
 	}
@@ -61,6 +70,63 @@ country_event = {
 			}
 			33 = {
 				assimilate_east_siberia_jpn = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = CA_to_japanese.3 #中南半岛区
+	title = CA_to_japanese.3.t
+	desc = CA_to_japanese.3.d
+	mean_time_to_happen = {
+		days = 1
+	}
+	hidden = yes
+	trigger = {
+		has_country_flag = CA_to_japanese_indochina_flag
+	}
+	option = {
+		name = CA_to_japanese.3.a
+		random_list = {
+			20 = {
+				assimilate_vietnam_jpn = yes
+			}
+			20 = {
+				assimilate_cambodia_jpn = yes
+			}
+			20 = {
+				assimilate_thai_jpn = yes
+			}
+			20 = {
+				assimilate_burma_jpn = yes
+			}
+			20 = {
+				assimilate_malay_jpn = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = CA_to_japanese.4 #东印度区
+	title = CA_to_japanese.4.t
+	desc = CA_to_japanese.4.d
+	mean_time_to_happen = {
+		days = 1
+	}
+	hidden = yes
+	trigger = {
+		has_country_flag = CA_to_japanese_indonesia_flag
+	}
+	option = {
+		name = CA_to_japanese.4.a
+		random_list = {
+			50 = {
+				assimilate_indonesia_jpn = yes
+			}
+			50 = {
+				assimilate_moluccas_jpn = yes
 			}
 		}
 	}
