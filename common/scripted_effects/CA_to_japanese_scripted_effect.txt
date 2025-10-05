@@ -267,3 +267,119 @@ assimilate_moluccas_jpn = {
 		change_culture = shizue
 	}
 }
+#印度
+assimilate_bengal_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = assam_area #阿萨姆
+				area = naga_hills_area #那加丘陵
+				area = tripura_area #特里普拉
+				area = east_bengal_area #东孟加拉
+				area = north_bengal_area #北孟加拉
+				area = gaur_area #高尔
+				area = west_bengal_area #西孟加拉
+				area = jharkhand_area #贾坎德
+				area = orissa_area #奥里萨
+			}
+		}
+		change_culture = hyakusen
+	}
+}
+assimilate_dravidian_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				region = coromandel_region
+				area = maidan_area #马坦
+				area = desh_area #德什
+				area = konkan_area #康坎
+				area = raichur_doab_area #赖丘尔河间地
+				area = rayalaseema_area #拉雅拉希马
+				area = mysore_area #迈索尔
+				area = kanara_area #卡纳达
+				area = malabar_area #马拉巴尔
+				area = golconda_area #南特伦甘纳
+			}
+		}
+		change_culture = tenmon
+	}
+}
+assimilate_deccan_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = garjat_area #伽贾德
+				area = berar_area #贝拉尔
+				area = upper_mahanadi_area #上默哈讷迪
+				area = gondwana_area #冈瓦纳
+				area = baghelkhand_area #巴克尔根德
+				area = bundelkhand_area #本德尔肯德
+				area = gird_area #吉尔德
+				area = malwa_area #摩腊婆
+				area = khandesh_area #坎德什
+				area = tapti_area #达布蒂
+				area = telingana_area #北特伦甘纳
+				area = ahmednagar_area #艾哈迈德讷格尔
+			}
+		}
+		change_culture = toyohara
+	}
+}
+assimilate_uttar_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = bihar_area #比哈尔
+				area = purvanchal_area
+				area = lower_doab_area #下河间地
+				area = oudh_area #奥德
+				area = katehar_area #卡特哈尔
+				area = upper_doab_area #上河间地
+				area = sirhind_area #西尔信德
+				area = nepal_area
+				area = himalayan_hills_area
+				area = mithila_area #弥萨罗
+				area = baisi_rajya_area #拜西拉贾
+				area = jaipur_area #斋普尔
+				area = jangladesh_area #禅伽罗
+			}
+		}
+		change_culture = tenjiku
+	}
+}
+assimilate_gujarate_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = sindh_area #南信德
+				area = northern_sindh_area #北信德
+				area = marwar_area #马尔瓦尔
+				area = patan_area #帕坦
+				area = saurashtra_area #索特什特拉
+				area = ahmedabad_area #艾哈迈达巴德
+				area = mewar_area #梅瓦尔
+			}
+		}
+		change_culture = nishizu
+	}
+}
+assimilate_punjab_jpn = {
+	random_owned_province = {
+		limit = {
+			NOT = { culture_group = japanese_g }
+			OR = {
+				area = multan_area #木耳坦
+				area = lahore_area #拉合尔
+				area = sind_sagar_area #信德萨格尔
+				area = kashmir_area #克什米尔
+			}
+		}
+		change_culture = kakan
+	}
+}

@@ -131,3 +131,39 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = CA_to_japanese.5 #印度区
+	title = CA_to_japanese.5.t
+	desc = CA_to_japanese.5.d
+	mean_time_to_happen = {
+		days = 1
+	}
+	hidden = yes
+	trigger = {
+		has_country_flag = CA_to_japanese_india_flag
+	}
+	option = {
+		name = CA_to_japanese.5.a
+		random_list = {
+			16 = {
+				assimilate_punjab_jpn = yes
+			}
+			16 = {
+				assimilate_gujarate_jpn = yes
+			}
+			17 = {
+				assimilate_uttar_jpn = yes
+			}
+			17 = {
+				assimilate_deccan_jpn = yes
+			}
+			17 = {
+				assimilate_dravidian_jpn = yes
+			}
+			17 = {
+				assimilate_bengal_jpn = yes
+			}
+		}
+	}
+}

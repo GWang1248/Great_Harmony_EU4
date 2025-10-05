@@ -22,4 +22,10 @@ japanese_g = { #日本文化
 	kaido = {} #海门
 	shizue = {} #静江
 	nanyo = {} #南洋
+	hyakusen = {} #百川
+	tenmon = {} #天门
+	toyohara = {} #丰原
+	nishizu = {} #西津
+	tenjiku = {} #天竺
+	kakan = {} #河间
 }
